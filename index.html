@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"> -->
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav navigation">
+      <a href="#" class="navigation__link">
+        <img src="images/logo.png" alt="Logotype" class="logotype">
+      </a>
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">О сервисе</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Функции</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Возможности</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Партнеры</a>
+        </li>
+      </ul>
+      <button class="navigation__button_transparent">
+        Оставить заявку
+      </button>
+    </nav>
+  </header>
+
+  <section class="slider">
+
+    <div class="slider__slide fade slider__slide_slide-1">
+      <div class="slider__text-wrapper">
+        <h1 class="slider__heading">
+          Расширяем возможности предоставления качественных медицинских услуг
+        </h1>
+        <p class="slider__text">
+          «Дневник здоровья» – новый сервис для самоконтроля показателей состояния здоровья, разработанный для участников программы «Мое здоровье».
+        </p>
+        <button class="slider__button button">
+          Узнать больше
+        </button>
+      </div>
+    </div>
+
+    <div class="slider__slide fade slider__slide_slide-2">
+      <div class="slider__text-wrapper">
+        <h1 class="slider__heading">
+            Следить за здоровьем станет проще
+        </h1>
+        <p class="slider__text">
+          Скоро вы сможете находиться на связи со своим лечащим врачом независимо от своего местоположения, вести дневник мониторинга самочувствия, получать рекомендации по плану лечения и многое другое.
+        </p>
+        <button class="slider__button button">
+          Узнать больше
+        </button>
+      </div>
+    </div>
+
+    <div class="slider__nav">
+      <span class="slider__dot" onclick="currentSlide(1)"></span>
+      <span class="slider__dot" onclick="currentSlide(2)"></span>
+    </div>
+  </section>
+  
+
+  <section class="about-block">
+    <div class="about-block__mobile">
+      <img src="images/phone.png" alt="Телефон" class="about-block__image">
+    </div>
+    <div class="about-block__description description">
+      <h2 class="description__heading">Что такое «Дневник здоровья»?</h2>
+      <p class="description__text">Дневник пациента — это удобный онлайн-сервис:</p>
+      <ul class="description__list list">
+        <li class="list__item">
+          Вносите результаты измерений вручную или с помощью интегрированных приборов
+        </li>
+        <li class="list__item">
+          Ведите персональную медицинскую карту с историей ваших измерений
+        </li>
+        <li class="list__item">
+          Делитесь результатами измерений со специалистами для повышения эффективности лечения
+        </li>
+        <li class="list__item">
+          Получайте рекомендации, созданные специально для вас
+        </li>
+      </ul>
+      <button class="description__button button">
+        Оставить заявку
+      </button>
+    </div>
+  </section>
+  
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script> -->
+  <script src="js/main.js"></script>
+</body>
+</html>
